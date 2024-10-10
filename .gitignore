@@ -1,3 +1,6 @@
+# test generator build artifact
+tests/generate_rand48_conformance_data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

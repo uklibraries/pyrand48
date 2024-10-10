@@ -15,9 +15,9 @@ Usage
 -----
 
 ```python
-from pyrand48 import pyrand48
+from pyrand48.rand48 import Rand48
 
-prng = pyrand48.Rand48(42)           # seeds with int(time.time()) if no seed provided
+prng = Rand48(42)                    # seeds with int(time.time()) if no seed provided
 random_float = prng.drand48()        # 0 <= r < 1
 random_unsigned_int = prng.lrand48() # 0 <= r < 2**31
 random_signed_int = prng.mrand48()   # -(2**31) <= r < 2**31
