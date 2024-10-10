@@ -73,7 +73,7 @@ which we used to generate conformance tests in Pytest.
 License
 -------
 
-Copyright (C) 2024 MLE Slone. Licensed under the [MIT license](LICENSE.txt).
+Copyright (C) 2024 MLE Slone. Licensed under the [MIT license](LICENSE.md).
 
 This module includes a partial translation of Martin Birgmeier's implementation of the
 rand48 pseudorandom number generator from C into Python.
