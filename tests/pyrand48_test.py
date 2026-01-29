@@ -6,6 +6,10 @@ import pytest
 from pyrand48.rand48 import Rand48
 
 
+def test_arithmetic_broken():
+    assert 2 + 2 == 5
+
+
 @pytest.fixture
 def get_conformance_data():
     contents = (
