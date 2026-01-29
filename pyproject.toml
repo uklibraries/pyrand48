@@ -1,6 +1,6 @@
 [project]
 name = "pyrand48"
-version = "0.1.8"
+version = "0.1.9"
 description = "An implementation of the rand48 linear congruential generator."
 authors = [{ name = "MLE Slone", email = "m.slone@gmail.com" }]
 requires-python = ">=3.12,<4"
