@@ -18,7 +18,7 @@ Repository = "https://github.com/uklibraries/pyrand48/"
 
 [dependency-groups]
 dev = [
-    "black>=24.8.0,<25",
+    "black>=24.8.0,<27",
     "pre-commit>=4.0.0,<5",
     "pytest>=8.3.3,<9",
     "isort>=5.13.2,<6",
